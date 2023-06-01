@@ -1,4 +1,15 @@
+## Requirements
+* NodeJS
+* Neovim 0.7.0 or above _(Recommended)_
+
+
 ## Installation
+Install Neovim from Snap Store _(For Ubuntu Users Or Debian Based Distro)_
+~~~
+snap install nvim --classic
+~~~
+
+Cloning repo
 ~~~
 git clone https://github.com/ronitkrshah/nvim_config.git ~/.config/nvim
 ~~~

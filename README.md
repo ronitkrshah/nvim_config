@@ -1,5 +1,4 @@
 ## Requirements
-* NodeJS
 * Neovim 0.7.0 or above _(Recommended)_
 
 

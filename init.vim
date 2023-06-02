@@ -18,7 +18,7 @@
 "
 set nowrap
 set number
-set relativenumber
+"set relativenumber
 set ignorecase
 set autoindent
 set mouse=a
@@ -29,20 +29,23 @@ set shiftwidth=2
 set softtabstop=2
 set smartcase
 set encoding=UTF-8
-
+set nobackup
+set nowritebackup
+set updatetime=300
+set signcolumn=yes
 
 """""""""""""""""""""""""""""""""""""""""""
 "              IMPORT FILES               "
 """""""""""""""""""""""""""""""""""""""""""
 
 source ~/.config/nvim/plugins.vim
-
+source ~/.config/nvim/configs/coc.vim
 source ~/.config/nvim/configs/nerdtree.vim
+source ~/.config/nvim/configs/keymap.vim
 source ~/.config/nvim/configs/autopairs.vim
+
 
 """""""""""""""""""""""""""""""""""""""""""
 "							 COLORSCHEME                "
 """""""""""""""""""""""""""""""""""""""""""
-colorscheme tokyonight-storm
-
-
+colorscheme tokyonight-storm 
